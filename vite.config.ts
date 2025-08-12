@@ -5,7 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // 使用相对路径，便于本地直接打开HTML文件
+  base: '/equipment-inventory-management-system/',
   build: {
     sourcemap: 'hidden',
   },
